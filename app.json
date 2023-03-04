@@ -1,0 +1,32 @@
+{
+  "id": "86120545-08e3-4d28-b105-2af9b930b65d",
+  "name": "JobInventory",
+  "publisher": "Default publisher",
+  "version": "1.0.0.0",
+  "brief": "Job Inventory",
+  "description": "Job Inventory",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "./logo/KNH.jpg",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "20.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "9.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}
