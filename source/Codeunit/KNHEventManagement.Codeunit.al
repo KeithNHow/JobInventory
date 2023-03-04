@@ -1,7 +1,7 @@
 /// <summary>
 /// Codeunit KNH_EventManagement (ID 50100).
 /// </summary>
-codeunit 50100 "KNH_EventManagement"
+codeunit 52010 "KNH_EventManagement"
 {
     [EventSubscriber(ObjectType::Codeunit, Codeunit::"Purch.-Post", 'OnPostItemJnlLineJobConsumption', '', false, false)]
     local procedure SkipItemJobApplicationPurchase(var IsHandled: Boolean)
