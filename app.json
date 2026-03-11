@@ -1,8 +1,8 @@
 {
   "id": "86120545-08e3-4d28-b105-2af9b930b65d",
   "name": "JobInventory",
-  "publisher": "Default publisher",
-  "version": "1.0.0.0",
+  "publisher": "KeithHow",
+  "version": "27.0.0.0",
   "brief": "Job Inventory",
   "description": "Job Inventory",
   "privacyStatement": "",
@@ -12,8 +12,8 @@
   "logo": "./logo/KNH.jpg",
   "dependencies": [],
   "screenshots": [],
-  "platform": "1.0.0.0",
-  "application": "25.0.0.0",
+  "platform": "27.0.0.0",
+  "application": "27.0.0.0",
   "idRanges": [
     {
       "from": 52010,
@@ -25,7 +25,7 @@
     "allowDownloadingSource": true,
     "includeSourceInSymbolFile": true
   },
-  "runtime": "14.0",
+  "runtime": "16.0",
   "features": [
     "NoImplicitWith"
   ]

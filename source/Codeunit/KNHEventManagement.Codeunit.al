@@ -1,7 +1,7 @@
 /// <summary>
-/// Codeunit KNH_EventManagement (ID 50100).
+/// Codeunit to handle events for KNH Event Management related to purchasing and warehouse processes, specifically to skip job application on purchase lines and ignore job filters in certain reports and processes.
 /// </summary>
-codeunit 52010 "KNH_EventManagement"
+codeunit 52010 KNH_EventManagement
 {
     [EventSubscriber(ObjectType::Codeunit, Codeunit::"Purch.-Post", 'OnPostItemJnlLineJobConsumption', '', false, false)]
     local procedure SkipItemJobApplicationPurchase(var IsHandled: Boolean)
